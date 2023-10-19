@@ -9,6 +9,7 @@ const hollywoodController= (req,res)=>{
 }
 
 const bollywoodController= (req,res)=>{
+    
     return res.send(bollywood)
 }
 
