@@ -1,4 +1,4 @@
-const {technologyController,hollywoodController,bollywoodController, foodController, fitnessController, homeController} = require('../NODE 2/controller/categoeryController')
+const {technologyController,hollywoodController,bollywoodController, foodController, fitnessController, homeController} = require('./controller/categoeryController')
 const categoryRouter = require('express').Router();
 categoryRouter.get('/technology',technologyController)
 categoryRouter.get('/hollywood',hollywoodController)
