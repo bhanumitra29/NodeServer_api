@@ -1,4 +1,4 @@
-const {bollywood,technology,hollywood,food,fitness} = require('../dummyData')
+const {bollywood,technology,hollywood,food,fitness, home} = require('../dummyData')
 
 const technologyController= (req,res)=>{
     return res.send(technology)
@@ -21,4 +21,9 @@ const fitnessController= (req,res)=>{
     return res.send(fitness)
 }
 
-module.exports={technologyController,hollywoodController,bollywoodController,foodController,fitnessController}
+const homeController= (req,res)=>{
+    return res.send(home)
+}
+
+
+module.exports={technologyController,hollywoodController,bollywoodController,foodController,fitnessController,homeController}
